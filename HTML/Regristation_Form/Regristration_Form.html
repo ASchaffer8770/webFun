@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <div>
+        <label for="first_name_form">First Name: *</label>
+        <input type="text" name="first_name">
+    </div>
+    <div>
+        <label for="last_name_input">Last Name: *</label>
+        <input type="text" name="last_name">
+    </div>
+    <div>
+        <label for="email">Email Address: *</label>
+        <input type="text" name="email">
+    </div>
+    <div>
+        <label for="password">Password : *</label>
+        <input type="password">
+    </div>
+    <div>
+        <label for="password_confirm">Confirm Password: *</label>
+        <input type="password">
+    </div>
+    <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date">
+    </div>
+    <div>
+        <label for="Gender">Gender:</label>
+    </div>
+    <div>
+        <input type="radio">
+        <label for="Gender_male">Male</label>
+        <input type="radio">
+        <label for="Gender_female">Female</label>
+        <input type="radio">
+        <label for="Gender_nb">Non-Binary</label>
+        <input type="radio">
+        <label for="Gender_no_disclosure">I prefer not to disclose</label>
+    </div>
+    <div>
+        <label for="self_description">A short discription about myself:</label>
+    </div>
+    <div>
+        <textarea name="self_discription" cols="30" rows="3"></textarea>
+    </div>
+    <div>
+        <label for="fav_language">Favorite Language:</label>
+        <select name="language">
+            <option value="">JavaScript</option>
+            <option value="">Json</option>
+            <option value="">HTML</option>
+            <option value="">Ruby</option>
+            <option value="">Java</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="agreement">
+        <label for="checkbox">Yes, I would like to receive weekly email updates!</label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account">
+    </div>
+    <div>
+        <p>
+            * required field
+        </p>
+    </div>
+</body>
+</html>
