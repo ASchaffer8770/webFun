@@ -1,0 +1,23 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-style: normal;
+}
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+h3 {
+    background-color: skyblue;
+    color: purple;
+    text-align: right;
+    text-decoration: underline;
+}
+span {
+    color: aquamarine;
+}
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
