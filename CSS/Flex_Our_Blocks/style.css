@@ -1,33 +1,52 @@
 .container{
+    padding: 10px;
+    margin: 20px;
     width: 950px;
     background-color: silver;
     margin: 0px auto;
 }
 .top-nav {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
     height: 150px;
     background-color: green;
 }
 .side-nav {
+    display: flex;
+    margin: 10px 0px 10px 10px;
+   
     height: 300px;
     width: 200px;
     background-color: blue;
 }
 .main {
+    display: flex-end;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
     height: 400px;
     width: 700px;
     background-color: red;
 }
 .sub-content {
+    display: flex;
+    margin: 10px;
+    align-items: center;
     height: 200px;
     width: 210px;
     background-color: yellow;
 }
 #advertisement {
+    display: block;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
     height: 120px;
     width: 660px;
     background-color: purple;
 }
 .row {
+    display: flex;
     /* TODO - what should go here? */
 }
 
