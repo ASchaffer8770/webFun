@@ -18,7 +18,7 @@
     background-color: blue;
 }
 .main {
-    float: right;
+    display: inline-block;
     margin: 10px;
     align-items: left;
     height: 400px;
@@ -34,7 +34,7 @@
 }
 #advertisement {
     margin: 10px 20px 0px 10px;
-    display: block;
+    display: inline-block;
     height: 120px;
     width: 660px;
     background-color: purple;
