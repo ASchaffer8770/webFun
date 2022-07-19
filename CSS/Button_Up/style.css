@@ -1,0 +1,23 @@
+div {
+    padding: 25px 50px 25px 50px;
+}
+#rounded {
+    color: rgb(16, 218, 104);
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 5px 50px 5px 50px;
+    border-color: rgb(16, 218, 104);
+}
+#circle {
+    size: 110%;
+    border-radius: 50%;
+    background-color: seagreen;
+    color: white;
+    border-color: seagreen;
+}
+#floating {
+    border: 20px black;
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
