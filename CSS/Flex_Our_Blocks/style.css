@@ -7,14 +7,13 @@
 }
 .top-nav {
     display: flex;
-    padding: 10px;
-    margin: 10px;
+    margin: 10px 15px 0px 15px;
     height: 150px;
     background-color: green;
 }
 .side-nav {
     display: flex;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 20px 10px 15px;
    
     height: 300px;
     width: 200px;
@@ -23,24 +22,22 @@
 .main {
     display: flex-end;
     margin: 10px 0px 10px 0px;
-    padding: 10px;
     height: 400px;
     width: 700px;
     background-color: red;
 }
 .sub-content {
     display: flex;
-    margin: 10px;
+    margin: 15px 0px 10px 15px;
     align-items: center;
     height: 200px;
     width: 210px;
     background-color: yellow;
 }
 #advertisement {
-    display: block;
-    align-items: center;
-    margin: 10px;
-    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 15px 15px 15px;
     height: 120px;
     width: 660px;
     background-color: purple;
