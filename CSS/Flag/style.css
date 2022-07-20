@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.ukraine{
+    display: flex;
+    flex-direction: column;
+}
+.rowOne {
+    background-color: blue;
+    height: 200px;
+    width: 600px;
+}
+.rowTwo {
+    background-color: yellow;
+    height: 200px;
+    width: 600px;
+}
+.france {
+    display: flex;
+    margin: 50px 0px 0px 0px;
+}
+.columnOne {
+    background-color: blue;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    z-index: ;
+}
+.columnTwo {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+.columnThree{
+    background-color: red;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+.flagPole {
+    display: flex;
+    background-color: brown;
+    height: 350px;
+    width: 20px;
+    border: 2px solid black;
+}
+.england {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    align-items: center;
+}
+.horizontal {
+    background-color: red;
+    height: 40px;
+    width: 400px;
+}
+.vertical {
+    background-color: red;
+    height: 200px;
+    width: 40px;
+    position: absolute;
+}
