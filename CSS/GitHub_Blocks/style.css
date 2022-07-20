@@ -1,7 +1,18 @@
-.container {
-  height: 720px;
-  width: 780px;
+.container{
+  width: 750px;
+  height: 750px;
+  display: flex;
+  align-items: center;
 }
-img.octocat {
-  height: 200px;
+.firstRow {
+  background-color: lime;
+  justify-content: space-around;
+}
+.secondRow {
+  background-color: lightcoral;
+  justify-content: space-around;
+}
+.thirdRow {
+  background-color: rgb(216, 240, 128);
+  justify-content: space-around;
 }
