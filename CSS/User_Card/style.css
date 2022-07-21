@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.card {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border: solid 1px black;
+}
+.banner {
+    height: 100px;
+    width: 500px;
+    margin: -35px;
+    padding-right: 15px;
+    background-color: rgb(23,162,184);
+}
+.profilePic {
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+}
+.settingsIcon {
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+.info {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.map {
+    width: 10px;
+    height: 15px;
+}
+.location {
+
+}
