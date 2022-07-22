@@ -63,3 +63,43 @@
 
 /* Main section Styling*/
 
+.container {
+    border: 2px solid black;
+    height: 1000px;
+    flex-wrap: wrap;
+}
+
+.main {
+    flex: 3;
+    margin-left: 15%;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+    border: 2px solid cyan;
+}
+
+.connection {
+    flex: 1;
+    margin-right: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 800px;
+    border: 2px solid greenyellow;
+}
+
+.education {
+    flex: 1;
+    height: 400px;
+    width: 300px;
+    margin-top: 20px;
+    border: 2px solid red;
+    align-items: center;
+}
+
+.moreConnections {
+    flex-wrap: wrap;
+    height: 400px;
+    width: 300px;
+    border: 2px solid yellow;
+}
