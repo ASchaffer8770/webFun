@@ -2,20 +2,30 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Balsamiq Sans', cursive;
+    list-style-type: none;
 }
+
 /*Generic Classes */
-.justify-content-right{
-    justify-content: right;
-}
-.justify-content-left {
-    justify-content: left;
-}
 .d-flex {
     display: flex;
 }
+
 .align-items-center{
     align-items: center;
 }
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
 /*Nav Bar Style*/
 .nav-bar {
     background-color: black;
@@ -23,21 +33,33 @@
     color: white;
     text-decoration: none;
 }
+
 .header-left {
     flex: 3;
     padding: 15%;
 }
+
 .header-right {
     flex: 1;
 }
+
+.header-left ul {
+    width: 70%;
+    padding-left: 30px;
+}
+
 .ul li {
     display: flex;
     align-items:center;
     justify-content: space-around;
 }
+
 .btn {
     background-color: rgb(23,162,184);
     color: white;
-    width: 80px;
+    width: 90px;
     height: 30px;
 }
+
+/* Main section Styling*/
+
