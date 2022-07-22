@@ -64,42 +64,51 @@
 /* Main section Styling*/
 
 .container {
-    border: 2px solid black;
-    height: 1000px;
-    flex-wrap: wrap;
+    height: 900px;
 }
 
-.main {
-    flex: 3;
-    margin-left: 15%;
+.id {
+    margin-left: 22%;
     margin-right: 10px;
     margin-top: 20px;
-    height: 400px;
-    width: 300px;
+    height: 70%;
+    width: 80%;
     border: 2px solid cyan;
 }
 
-.connection {
-    flex: 1;
-    margin-right: 10px;
+.education {
+    height: 30%;
+    width: 80%;
+    margin-left: 22%;
     margin-top: 20px;
-    height: 200px;
-    width: 800px;
+    border: 2px solid red;
+}
+
+.connection {
+    margin-right: 20%;
+    margin-top: 20px;
+    height: 50%;
+    width: 70%;
     border: 2px solid greenyellow;
 }
 
-.education {
-    flex: 1;
-    height: 400px;
-    width: 300px;
+.moreConnections {
     margin-top: 20px;
-    border: 2px solid red;
-    align-items: center;
+    height: 70%;
+    width: 70%;
+    border: 2px solid yellow;
 }
 
-.moreConnections {
-    flex-wrap: wrap;
-    height: 400px;
-    width: 300px;
-    border: 2px solid yellow;
+/*Sighting Border Colors*/
+
+.profile-right {
+    margin-left: 40px;
+    flex: 2;
+    flex-direction: column;
+}
+
+.profile-left {
+    margin-left: 30px;
+    flex: 3;
+    flex-direction: column;
 }
