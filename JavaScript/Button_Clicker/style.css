@@ -4,6 +4,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/*Common*/
+.dflex {
+    display: flex;
+}
+
+.flexdirection {
+    flex-direction: column;
+}
+
 /*NavBar*/
 
 .navBar {
