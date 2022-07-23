@@ -38,3 +38,53 @@
     background-color: rgb(43,120,228);
     color: white;
 }
+
+/*Main Content Layout*/
+
+.left-column {
+    flex-wrap: wrap;
+    flex: 3;
+    width: 50%;
+    margin: 10px 0px 0px 93px;
+    border: 2px solid green;
+}
+
+.right-column {
+    flex: 1;
+    flex-wrap: wrap;
+    width: 50%;
+    border: 2px solid blue;
+}
+
+/* Box layout*/
+
+.top-box {
+    border: 2px solid black;
+    width: 90%;
+    margin-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bottom-box {
+    border: 2px solid black;
+    width: 90%;
+}
+
+/*Inside box layout*/
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.right-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+}
