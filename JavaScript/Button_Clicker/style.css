@@ -1,90 +1,88 @@
 * {
     padding: 0px;
-    margin:  0px;
-    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*Common*/
-.dflex {
+/*Generic Classes*/
+
+.d-flex {
     display: flex;
-}
-
-.flexdirection {
-    flex-direction: column;
 }
 
 /*NavBar*/
 
-.navBar {
-    display: flex;
-    width: 80%;
-    height: 50px;
-    background-color: rgb(204,204,204);
-    margin: 0px 10% 0px 10%;
-    justify-content: space-evenly;
+.navBar-container {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-#searchBar {
-    height: 50%;
+.navBar {
+    width: 100%;
+    height: 50px;
     align-items: center;
-    margin: 10px;
+    justify-content: space-evenly;
+    background-color: rgb(204,204,204);
+    margin-bottom: 20px;
 }
 
 .login {
-    height: 50%;
-    align-items: center;
-    margin: 10px;
-    width: 80px;
-    background-color: rgb(43,120,228);
+    height: 25px;
+    width: 70px;
     color: white;
+    background-color: rgb(43,120,228);
 }
 
-/*Main Content Layout*/
+/*main layout*/
 
-.left-column {
-    flex-wrap: wrap;
-    flex: 3;
-    width: 50%;
-    margin: 10px 0px 0px 93px;
-    border: 2px solid green;
+.flex-container {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.right-column {
+.leftCol {
+    flex: 2;
+}
+
+.rightCol {
     flex: 1;
-    flex-wrap: wrap;
-    width: 50%;
-    border: 2px solid blue;
 }
 
-/* Box layout*/
-
-.top-box {
-    border: 2px solid black;
-    width: 90%;
-    margin-bottom: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
+.practice {
+    border: 2px solid grey;
+    border-radius: 2px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.bottom-box {
-    border: 2px solid black;
-    width: 90%;
+.programmer {
+    border: 2px solid grey;
+    border-radius: 2px;
+    margin-right: 20px;
 }
 
-/*Inside box layout*/
-
-.left-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 100%;
-    border: 2px solid red;
+.definition {
+    border: 2px solid grey;
+    border-radius: 2px;
 }
 
-.right-content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 100%;
+/*card layout*/
+
+.leftSide {
+    flex: 1;
+    align-items: center;
+    margin: 5%;
+}
+
+.rightSide{
+    flex: 1;
+    align-items: center;
+    margin: 10%;
+}
+
+.fancyBtn {
+    background-color: rgb(255,217,102);
+    margin-top: 10px;
+    height: 25px;
+    width: 70px;
 }
