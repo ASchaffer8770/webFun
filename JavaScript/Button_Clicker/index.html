@@ -16,7 +16,7 @@
         <div class="navBar d-flex">
             <h1 class="title">Dojonary</h1>
             <input type="search" name="searchBar" id="">
-            <button class="login">Login</button>
+            <button class="login" onclick="logOut(this)">Login</button>
         </div>
     </div>
     
@@ -28,7 +28,7 @@
                 <h1>ninja</h1>
                 <h3>noun</h3>
                 <h3>Plural: ninjas</h3>
-                <button class="fancyBtn">13 Likes</button>
+                <button class="fancyBtn" onclick="alertLike(this)">13 Likes</button>
             </div>
             <div class="rightSide">
                 <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
@@ -39,7 +39,7 @@
                     <h1>ninja</h1>
                     <h3>noun</h3>
                     <h3>Plural: ninjas</h3>
-                    <button class="fancyBtn">37 Likes</button>
+                    <button class="fancyBtn" onclick="alertLike(this)">37 Likes</button>
                 </div>
                 <div class="rightSide">
                     <p>A <a href="#">programmer</a>who breaks down problems with <a href="#">zen</a>-like focus</p>
@@ -49,7 +49,7 @@
         <div class="rightCol">
         <div class="definition d-flex">
             <h1>Dojonary is defined by YOU</h1>
-            <button class="addDef">
+            <button class="addDef" onclick="removeDef(this)">
                 <h3>Add Definition</h3>
             </button>
         </div>
